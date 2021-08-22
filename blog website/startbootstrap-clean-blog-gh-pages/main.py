@@ -5,8 +5,8 @@ from smtplib import SMTP
 post = Post()
 
 app = Flask(__name__)
-EMAIL = "maniteja4137@gmail.com"
-PASSWORD = "u18me141"
+EMAIL = "YOUR EMAIL"
+PASSWORD = "YOUR EMAIL PASSWORD"
 
 @app.route("/")
 def home():
